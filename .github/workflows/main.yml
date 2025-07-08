@@ -1,5 +1,6 @@
 jobs:
   main_job:
+    on: push
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
